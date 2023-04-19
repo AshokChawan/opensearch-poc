@@ -1,0 +1,69 @@
+{
+  "timestamp": "2022-12-23T12:34:56Z",
+  "level": "error",
+  "message": "There was an error processing the request",
+  "request_id": "1234567891",
+  "user_id": "ashok123"
+  }
+
+
+  [
+    {
+        "timestamp": "2022-12-23T12:34:56Z",
+        "level": "error",
+        "message": "There was an error processing the request",
+        "request_id": "1001",
+        "user_id": "user-1001"
+    },
+    {
+        "timestamp": "2022-12-23T12:34:56Z",
+        "level": "warning",
+        "message": "There was a warning processing the request",
+        "request_id": "1002",
+        "user_id": "user-1002"
+    },
+    {
+        "timestamp": "2022-12-23T12:34:56Z",
+        "level": "debug",
+        "message": "The data processed successfully",
+        "request_id": "1003",
+        "user_id": "user-1003"
+    },
+       {
+        "timestamp": "2022-12-23T12:34:56Z",
+        "level": "info",
+        "message": "The data processed successfully",
+        "request_id": "1003",
+        "user_id": "user-1003"
+    }
+]
+
+
+
+{
+  "opensearch_data": [
+    {
+      "GUID" : "bdbb3439-755b-48b2-a1f8-db4c9da74fa4",
+      "promotion_id": [
+        "0577526e-98f7-4de0-af2f-7c028a3cdcd0",
+        "db4c9da2-98f7-4de0-af2f-7c028a3cdcd0",
+      ],
+      "promotion_codes": [
+        "000a06mze087lzlo",
+        "111a06mze087lzlo",
+      ],
+      "current_time": "2013-03-01T00:00:00"
+    },
+    {
+    "GUID" : "aaaab123-755b-48b2-a1f8-db4c9da74fa4",
+    "promotion_id": [
+      "0577526e-98f7-4de0-af2f-7c028a3cdcd0",
+      "db4c9da2-98f7-4de0-af2f-7c028a3cdcd0",
+    ],
+    "promotion_codes": [
+      "000a06mze087lzlo",
+      "111a06mze087lzlo",
+    ]
+    "current_time": "2013-03-01T00:00:00"
+    },
+},
